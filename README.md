@@ -170,14 +170,14 @@ Each notebook reproduces specific analyses and figures from the paper:
 
 ## Results
 
-### False Alarms (Figures 2, 5)
+### False Alarms
 
 **Finding:** RST deviates from null value (0.5) even under IIA compliance
 - Occurs in >80% of parameter space when baseline preference ratios ≠ 1
 - Indicates metric sensitivity to prior biases, not genuine context effects
 - **Implication:** Researchers may incorrectly conclude attraction effects exist
 
-### Misses (Figure 7)
+### Misses
 
 **Finding:** AST and ASC fail to detect genuine context effects
 - When decoys in Context 1 and Context 2 produce opposing effects (ΔA > 0, ΔB < 0)
