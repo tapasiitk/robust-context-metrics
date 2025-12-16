@@ -23,7 +23,6 @@ This repository contains source code, simulations, and analysis supporting the r
 
 ## Table of Contents
 
-- [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Key Metrics Analyzed](#key-metrics-analyzed)
@@ -34,26 +33,10 @@ This repository contains source code, simulations, and analysis supporting the r
 
 ---
 
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/tapasiitk/attraction-effect-metrics.git
-cd attraction-effect-metrics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run notebooks in Jupyter
-jupyter notebook notebooks/
-```
-
----
-
 ## Project Structure
 
 ```
-attraction-effect-metrics/
+robust-context-metrics/
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
@@ -91,7 +74,7 @@ attraction-effect-metrics/
 
 ```bash
 # Clone the repository
-git clone https://github.com/tapasiitk/attraction-effect-metrics.git
+git clone https://github.com/tapasiitk/robust-context-metrics.git
 cd attraction-effect-metrics
 
 # Create virtual environment (recommended)
