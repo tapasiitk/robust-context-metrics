@@ -23,7 +23,6 @@ This repository contains source code, simulations, and analysis supporting the r
 
 ## Table of Contents
 
-- [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Key Metrics Analyzed](#key-metrics-analyzed)
@@ -34,26 +33,10 @@ This repository contains source code, simulations, and analysis supporting the r
 
 ---
 
-## Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/tapasiitk/attraction-effect-metrics.git
-cd attraction-effect-metrics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run notebooks in Jupyter
-jupyter notebook notebooks/
-```
-
----
-
 ## Project Structure
 
 ```
-attraction-effect-metrics/
+robust-context-metrics/
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
@@ -91,7 +74,7 @@ attraction-effect-metrics/
 
 ```bash
 # Clone the repository
-git clone https://github.com/tapasiitk/attraction-effect-metrics.git
+git clone https://github.com/tapasiitk/robust-context-metrics.git
 cd attraction-effect-metrics
 
 # Create virtual environment (recommended)
@@ -187,14 +170,14 @@ Each notebook reproduces specific analyses and figures from the paper:
 
 ## Results
 
-### False Alarms (Figures 2, 5)
+### False Alarms
 
 **Finding:** RST deviates from null value (0.5) even under IIA compliance
 - Occurs in >80% of parameter space when baseline preference ratios ≠ 1
 - Indicates metric sensitivity to prior biases, not genuine context effects
 - **Implication:** Researchers may incorrectly conclude attraction effects exist
 
-### Misses (Figure 7)
+### Misses
 
 **Finding:** AST and ASC fail to detect genuine context effects
 - When decoys in Context 1 and Context 2 produce opposing effects (ΔA > 0, ΔB < 0)
