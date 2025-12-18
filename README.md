@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![Paper](https://img.shields.io/badge/arXiv-Preprint-red.svg)](https://doi.org/10.31234/osf.io/cj6hu_v1))
+[![Paper](https://img.shields.io/badge/arXiv-Preprint-red.svg)](https://doi.org/10.31234/osf.io/cj6hu_v1)
 
 **Authors:** Tapas Ranjan Rath, Nisheeth Srivastava, Narayanan Srinivasan  
 **Affiliation:** Cognitive Science, Indian Institute of Technology Kanpur
